@@ -18,7 +18,7 @@ struct TileView: View {
             RoundedRectangle(cornerRadius: 20)
                 .fill(
                     LinearGradient(
-                        colors: [randomColor(), randomColor()],
+                        colors: [.black, .brown],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
                     )
